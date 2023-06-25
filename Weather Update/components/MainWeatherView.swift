@@ -19,6 +19,6 @@ struct MainWeatherView: View {
             Text(isNight ? "45°" : "74°")
                 .font(.system(size: 50, weight: .medium))
                 .foregroundColor(.white)
-        }.padding(.bottom,40)
+        }.padding()
     }
 }
